@@ -21,16 +21,16 @@
                 <a href="#"><i class="fa fa-gear"></i> จัดการ<span class="fa arrow"></span></a>
                 <ul class="nav nav-second-level">
                     <li>
-                        <a href="<?php echo base_url('admin/category');?>"><i class="fa-wrench">จัดการหมวดหมู่</i></a>
+                        <a href="<?php echo base_url('admin/category');?>"><i class="fa fa-wrench"> จัดการหมวดหมู่</i></a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('admin/news');?>"><i class="fa-wrench">จัดการข่าว</i></a>
+                        <a href="<?php echo base_url('admin/news');?>"><i class="fa fa-wrench"> จัดการข่าว</i></a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('admin/comment');?>"><i class="fa-wrench">จัดการความคิดเห็น</i></a>
+                        <a href="<?php echo base_url('admin/comment');?>"><i class="fa fa-wrench"> จัดการความคิดเห็น</i></a>
                     </li>
                     <li>
-                        <a href="<?php echo base_url('admin/user');?>"><i class="fa-wrench">จัดการผู้ใช้งาน</i></a>
+                        <a href="<?php echo base_url('admin/user');?>"><i class="fa fa-wrench"> จัดการผู้ใช้งาน</i></a>
                     </li>
                 </ul>
                 <!-- /.nav-second-level -->

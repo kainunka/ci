@@ -16,6 +16,13 @@ class Admin extends CI_Controller
         $this->load->view('admin/layout/footer_view');
     }
 
+    public function addCategory() {
+        $this->load->view('admin/layout/header_view');
+        $this->load->view('admin/layout/sidebar_view');
+        $this->load->view('admin/addCategory_view');
+        $this->load->view('admin/layout/footer_view');
+    }
+
     public function news() {
         $this->load->view('admin/layout/header_view');
         $this->load->view('admin/layout/sidebar_view');
@@ -36,5 +43,6 @@ class Admin extends CI_Controller
         $this->load->view('admin/user_view');
         $this->load->view('admin/layout/footer_view');
     }
+
 
 }
