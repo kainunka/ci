@@ -6,7 +6,7 @@
         </div>
         <!-- /.col-lg-12 -->
         <div class="col-lg-6">
-            <form action="<?php echo base_url('admin/create_category'); ?>" method="post">
+            <form action="<?php echo base_url('admin/createCategory'); ?>" method="post">
                 <div class="form-group">
                     <input type="text" class="form-control" name="name" required placeholder="Name Category">
                 </div>
